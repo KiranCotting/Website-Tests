@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(216, 33, 240), rgb(81, 195, 240));
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Tooltip container */
+.tooltip {
+    display: inline-block;
+    color: black;
+    position: relative;
+}
+
+.tooltip .tooltiptext {
+    display: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 120px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 1;
+}
+
+/* Tooltip text when hovering */
+.tooltip:hover .tooltiptext {
+    display: block;
+} 
